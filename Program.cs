@@ -71,7 +71,7 @@ namespace ConsoleRecursividad
                     string txt2 = texto.Substring(1, texto.Length - 2);  // extrae la subcadena interior
                     return EsPalindromo(txt2);
                 }
-                else
+                else 
                     return false;
             }
         }
